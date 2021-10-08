@@ -15,6 +15,13 @@ const HomePage = () => {
             </Head>
             <main>
                 <h1>Mirkos Blog</h1>
+                <ul>
+                    <li>
+                        <Link href="/posts/first-post">
+                            <a>First Post</a>
+                        </Link>
+                    </li>
+                </ul>
             </main>
         </>
     );
