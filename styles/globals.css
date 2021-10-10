@@ -1,9 +1,17 @@
+:root{
+    --bg-color: white;
+    --tx-color: black;
+    --lk-color: darkred;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--tx-color);
 }
 
 a{
-    color: darkred;
+    color: var(--lk-color);
     text-decoration: none;;
 }
 a:focus, a:hover{
